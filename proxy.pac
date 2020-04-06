@@ -190,7 +190,7 @@ var good_da_hostpath_regex_flag = 0 > 0 ? true : false;  // test for non-zero nu
 var good_da_RegExp = /^$/;
 var good_da_regex_flag = 0 > 0 ? true : false;  // test for non-zero number of rules
 
-// 44 rules:
+// 50 rules:
 var good_da_host_exceptions_JSON = { "iad.apple.com": null,
 "iadsdk.apple.com": null,
 "iadsdk.apple.com.edgekey.net": null,
@@ -199,6 +199,12 @@ var good_da_host_exceptions_JSON = { "iad.apple.com": null,
 "news.iadsdk.apple.com": null,
 "webproxy-advp.iad.apple.com.akadns.com": null,
 "webproxy-advp.iad.apple.com.akadns.net": null,
+"googleadservices.com": null,
+"googletagsercies.com": null,
+"pagead.googlesyndication.com": null,
+"pagead1.googlesyndication.com": null,
+"pagead2.googlesyndication.com": null,
+"pagead3.googlesyndication.com": null,                                    
 "bingads.microsoft.com": null,
 "azure.bingads.trafficmanager.net": null,
 "choice.microsoft.com": null,
@@ -235,7 +241,7 @@ var good_da_host_exceptions_JSON = { "iad.apple.com": null,
 "wes.df.telemetry.microsoft.com": null,
 "win10.ipv6.microsoft.com": null,
 "www.bingads.microsoft.com": null };
-var good_da_host_exceptions_exact_flag = 44 > 0 ? true : false;  // test for non-zero number of rules
+var good_da_host_exceptions_exact_flag = 50 > 0 ? true : false;  // test for non-zero number of rules
 
 // 2050 rules:
 var bad_da_host_JSON = { "jobthread.com": null,
